@@ -21,3 +21,72 @@
   font-size: 12px;
   overflow: hidden;
 }
+
+.sc-goods-list {
+  font-size: 12px;
+  padding: 5px;
+  list-style: none;
+  margin: 0;
+  .link {
+    display: block;
+    background: #fff;
+    min-height: 100px;
+  }
+  .goods-card.small-pic.card {
+    position: relative;
+    max-height: 280px;
+    width: 50%;
+    float: left;
+    margin: 4px 0;
+    .link {
+      border-top: 2px solid #e5e5e5;
+      border-right: 2px solid #e5e5e5;
+      border-bottom: 2px solid #e5e5e5;
+      border-left: 2px solid #e5e5e5;
+      margin: 0 4px;
+    }
+    .photo-block {
+      position: relative;
+      width: 100%;
+      height: 190px;
+      background-color: rgb(255, 255, 255);
+      text-align: center;
+      overflow: hidden;
+      background-size: 6px 6px;
+      img {
+        max-height: 100%;
+        max-width: 100%;
+      }
+    }
+    .info {
+      position: relative;
+      min-height: 25px;
+      font-size: 13px;
+      padding-left: 4px;
+      margin-top: 10px;
+      .goods-price {
+        float: left;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        margin-top: 5px;
+        font-weight: bold;
+        padding: 0px;
+        em {
+          font-style: normal;
+          color: #ff6600;
+        }
+      }
+    }
+    .goods-buy {
+      position: absolute;
+      right: 10px;
+      bottom: 8px;
+      height: 25px;
+      width: 30px;
+      background-position: 0 0;
+      background-image: url("http://b.yzcdn.cn/v2/image/wap/showcase-1416814739063.png");
+      background-repeat: no-repeat;
+    }
+  }
+}
+
